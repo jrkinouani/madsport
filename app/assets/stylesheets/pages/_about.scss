@@ -1,7 +1,7 @@
 .aboutus-section {
     padding: 90px 0;
 }
-.aboutus-title {
+h2.aboutus-title {
     font-size: 30px;
     letter-spacing: 0;
     line-height: 32px;
@@ -9,10 +9,10 @@
     padding: 0 0 11px;
     position: relative;
     text-transform: uppercase;
-    color: #000;
+    color: #FFFFFF !important;
 }
 .aboutus-title::after {
-    background: #fdb801 none repeat scroll 0 0;
+    background: #A1E533 none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -26,22 +26,15 @@
     line-height: 22px;
     margin: 0 0 35px;
 }
+strong
+{
+    color: #A1E533;
+}
 
 a:hover, a:active {
     color: #ffb901;
     text-decoration: none;
     outline: 0;
-}
-.aboutus-more {
-    border: 1px solid #fdb801;
-    border-radius: 25px;
-    color: #fdb801;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0;
-    padding: 7px 20px;
-    text-transform: uppercase;
 }
 .feature .feature-box .iconset {
     background: #fff none repeat scroll 0 0;
@@ -85,7 +78,8 @@ a:hover, a:active {
     font-size: 13px;
     line-height: 22px;
 }
-.icon {
+.icon 
+{
     color : #f4b841;
     padding:0px;
     font-size:40px;
@@ -97,5 +91,4 @@ a:hover, a:active {
     line-height: 70px;
     text-align: center;
     width: 70px;
-}
 }
