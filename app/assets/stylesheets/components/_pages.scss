@@ -1,3 +1,7 @@
+body
+{
+  background-color:black;
+}
 .banner {
   background-size: cover;
   background-position: center;
@@ -26,4 +30,8 @@ aside
   margin-bottom:50px;
   padding-top:100px;
   padding-bottom:50px;
+}
+section
+{
+  color: white;
 }
