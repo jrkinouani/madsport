@@ -8,8 +8,17 @@ class PagesController < ApplicationController
   def concept
   end
 
-  def contact
+  def private
+  end
+
+  def stage
+  end
+
+  def collectif
     
+  end
+
+  def contact
   end
 
 end
