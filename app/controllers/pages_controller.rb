@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def faq
   end
 
-  def about
+  def concept
   end
 
   def contact
