@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+
   def new
     @contact = Contact.new
   end
@@ -7,11 +8,20 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      flash.now[:error] = nil
+      redirect_to thanks_path
     else
-      flash.now[:error] = "Votre message n'a pas été envoyé."
+      flash.now[:error] = 'Cannot send message.'
       render :new
     end
+  end
+
+  def thanks
+      flash.now[:notice] = 'Thank you for your message!'
+  end
+
+  private
+  def contact_params
+    params.require(:contact).permit(:name, :email, :message)
   end
 end
 

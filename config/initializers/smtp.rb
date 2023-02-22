@@ -1,8 +1,9 @@
 ActionMailer::Base.smtp_settings = {
-  domain: 'https://madsport.herokuapp.com/',
-  address:        "smtp.sendgrid.net",
-  port:            587,
-  authentication: :plain,
-  user_name:      'apikey',
-  password:       ENV['SENDGRID_API_KEY']
+    :address        => 'smtp.sendgrid.net',
+    :port           => '587',
+    :authentication => :plain,
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain         => 'https://madsport.herokuapp.com',
+    :enable_starttls_auto => true
 }
