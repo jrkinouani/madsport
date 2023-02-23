@@ -6,7 +6,7 @@ class ContactsController < ApplicationController
 
   def create
     @contact = Contact.new(params[:contact])
-    @contact.request = request
+    #@contact.request = request
     if @contact.deliver
       redirect_to thanks_path
     else
