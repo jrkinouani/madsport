@@ -1,6 +1,21 @@
 h1.text-center.title_private
 {
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-bottom: 30px;
 	color: #FFFFFF;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+h5.text-center.text_map
+{
+	color:#FFFFFF;
+	margin-bottom:30px
+}
+iframe
+{
+	margin-bottom:50px;
 }
