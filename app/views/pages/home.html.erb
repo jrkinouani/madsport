@@ -1,7 +1,7 @@
 <!-- <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://plus.unsplash.com/premium_photo-1663134122597-814a698ee5f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
   <div class="container text-center">
     <h1 >Prenez des cours de boxe française <br /> de haute qualités</strong> !</h1>
-    <!-- <p >Change your life and learn to code at one of our campuses around the world.</p> -->
+    <!-- <p >Change your life and learn to code at one of our campuses around the world.</p>  
   </div>
 </div> -->
 
@@ -18,31 +18,36 @@
         </div>
       </div>
   <div class="video-wrap">
-          <%= cl_video_tag "https://res.cloudinary.com/ddnko0wuk/video/upload/v1677411292/Girls_xdzr6u.mp4",autoplay:"", loop:"" ,muted:"",class:"custom-video" ,poster:"" %>
+    <%= cl_video_tag "Girls_xdzr6u",autoplay:"", loop:"" ,muted:"",class:"custom-video" ,poster:"" %>
   </div>
-  </section>
+</section>
 
 <div class="section_card">
   <div class="container-fluid">
     <h1 class="text-center p-4">Les cours</h1>
-    <div class="cards home">
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        
       <%= link_to private_path do %>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://plus.unsplash.com/premium_photo-1663013066703-d00f8538b642?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
-          Cours privée
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(facetoface.jpg);">
+        Cours privé
         </div>
       <% end %>
-
+      </div>
+      <div class="col-md-4 mb-5">
       <%= link_to collectif_path do %>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1623874514711-0f321325f318?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODh8fHNhbGxlJTIwZGUlMjBib3hlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60)">
           Cours collectif
         </div>
       <% end %>
-
+       </div>  
+      <div class="col-md-4 mb-5">
       <%= link_to formation_path do %>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)">
          Formation
         </div>
       <% end %>
+    </div>
     </div>
   </div>
 </div>
@@ -62,24 +67,21 @@
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="mb-4">Temoignages</h3>
       <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-        numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
-        quisquam eum porro a pariatur veniam.
+        Voici les témoignages de nos premiers clients.
       </p>
     </div>
   </div>
-  <div class="row text-center">
+ <div class="row text-center">
     <div class="col-md-4 mb-5 mb-md-0">
       <div class="d-flex justify-content-center mb-4">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" />
       </div>
-      <h5 class="mb-3">Maria Smantha</h5>
+      <h5 class="mb-3">Floriane</h5>
       <h6 class="text-primary mb-3">Web Developer</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-        tenetur. <i class="fas fa-quote-right pe-2"></i>
+        <i class="fas fa-quote-left pe-2"></i>Je n'avais jamais enfilé de gants de boxe de ma vie, sans savoir véritablement en quoi consistait la boxe. Mad a su s'adapter à moi à chacune de nos rencontres, à mes attentes, mes envies et ma progression tout au long de nos séances. Sa patience et sa bienveillance m'ont permis de progresser et de devenir encore plus motivée que jamais ! C'est plus qu'un cours mais un véritable échange entre un professeur et son élève"
+        <i class="fas fa-quote-right pe-2"></i>
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
@@ -104,11 +106,13 @@
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" />
       </div>
-      <h5 class="mb-3">Lisa Cudrow</h5>
+      <h5 class="mb-3">Odile</h5>
       <h6 class="text-primary mb-3">Graphic Designer</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
-        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi. <i class="fas fa-quote-right pe-2"></i>
+        <i class="fas fa-quote-left pe-2"></i>Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex.
+        Alex est un coach bienveillant toujours à l'écoute de mes sensations et conscient de mes capacités physiques mais il sait me challenger pour m’aider à me dépasser.
+        Après quelques mois, les résultats n'ont pas tardé à se faire sentir. Plus en forme, je suis très fière de moi et encore surprise d’arriver à enchaîner des jolies pompes en série. Moi qui ne réussissais à peine à enchaîner 5 pompes sur mes genoux au démarrage. Go go go. Alex est le coach qu’il vous faut !"
+        <i class="fas fa-quote-right pe-2"></i>
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
@@ -133,11 +137,11 @@
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" />
       </div>
-      <h5 class="mb-3">John Smith</h5>
+      <h5 class="mb-3">Ilyes</h5>
       <h6 class="text-primary mb-3">Marketing Specialist</h6>
       <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et iusto odio
-        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti. <i class="fas fa-quote-right pe-2"></i>
+        <i class="fas fa-quote-left pe-2"></i>J’ai eu la chance d’avoir comme coach le meilleur de tous, ses entraînements m’apportent beaucoup de joie, je me dépense tout en m’amusant, je progresse au fur et à mesure de son accompagnement. J’y prends énormément de plaisir et je recommande à tous !"
+        <i class="fas fa-quote-right pe-2"></i>
       </p>
       <ul class="list-unstyled d-flex justify-content-center mb-0">
         <li>
