@@ -18,17 +18,17 @@
         </div>
       </div>
   <div class="video-wrap">
-      <video autoplay="" loop="" muted="" class="custom-video" poster="">
-         <source src="Girls.mp4" type="video/mp4"> -->
-        
-      </video>
+     <!--  <video autoplay="" loop="" muted="" class="custom-video" poster=""> -->
+         <!--<source src="Girls.mp4" type="video/mp4"> -->
+          <%= cl_video_tag "Girls_xdzr6u",autoplay:"", loop:"" ,muted:"" ,class:"custom-video" ,poster:""%>
+      <!-- </video> -->
   </div>
   </section>
 
 <div class="section_card">
   <div class="container-fluid">
     <h1 class="text-center p-4">Les cours</h1>
-    <div class="cards">
+    <div class="cards home">
       <%= link_to private_path do %>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://plus.unsplash.com/premium_photo-1663013066703-d00f8538b642?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)">
           Cours privée
@@ -41,9 +41,9 @@
         </div>
       <% end %>
 
-      <%= link_to stage_path do %>
+      <%= link_to formation_path do %>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)">
-          Animation de stage
+         Formation
         </div>
       <% end %>
     </div>

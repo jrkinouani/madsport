@@ -11,7 +11,7 @@ class PagesController < ApplicationController
   def private
   end
 
-  def stage
+  def formation
   end
 
   def collectif

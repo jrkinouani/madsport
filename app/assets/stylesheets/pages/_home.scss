@@ -21,6 +21,11 @@ h6.text-primary.mb-3
 {
 	padding-top:150px;
 }
+.cards.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
 /*---------------------------------------
   HERO        
 -----------------------------------------*/

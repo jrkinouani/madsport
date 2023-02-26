@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get "/faq", to: "pages#faq"
   get "/concept", to: "pages#concept"
   get "/private", to: "pages#private"
-  get "/stage", to: "pages#stage"
+  get "/formation", to: "pages#formation"
   get "/collectif", to: "pages#collectif"
   resources :contacts, only: [:new, :create]
   get "/thanks", to: "contacts#thanks"
