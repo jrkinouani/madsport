@@ -15,7 +15,9 @@ class PagesController < ApplicationController
   end
 
   def collectif
-    
+  end
+
+  def about
   end
 
   def contact

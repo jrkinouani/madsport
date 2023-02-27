@@ -1,3 +1,31 @@
+.aboutus-section {
+    padding: 90px 0;
+}
+h2.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+.aboutus-title::after {
+    background: #A1E533 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
 strong
 {
     color: #A1E533;
@@ -67,13 +95,4 @@ a:hover, a:active {
 h1.text-center.mt-5.pb-5
 {
     color: #FFFFFF;
-}
-p.my_philo
-{
-    color: #606060;
-    font-size: 23px;
-}
-p.lead
-{
-    color: #606060;
 }
