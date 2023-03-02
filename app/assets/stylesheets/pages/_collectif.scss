@@ -19,3 +19,174 @@ card-category {
   width:100%;
   height:100px;
 }
+/*---------------
+carousel logos
+--------------*/
+.container-fluid.h-100 {
+  background-color: #FFFFFF;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.img-responsive
+{
+  height: 50px !important;
+  width: 50px !important;
+}
+/*----------------------
+TESTAMONIAL
+-----------------------*/
+.testimonial-page {
+  padding: 40px 0px;
+}
+.card-reviews {
+  padding-bottom: 30px;
+  height: 100%;
+}
+.test-reviews .card {
+  box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+  height: 100%;
+  transition: 0.8s;
+  background: rgb(224, 244, 255);
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 7px !important;
+}
+.test-reviews .card:after {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  pointer-events: none;
+}
+.test-reviews .description {
+  font-size: 14px;
+  hyphens: none;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.test-reviews .card-title img {
+  z-index: 99999 !important;
+}
+.test-reviews .card .layer {
+  position: absolute;
+  top: calc(100% - 5px);
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #A1E533,
+    #A1E533,
+    #A1E533,
+    #A1E533,
+    #A1E533
+  );
+  left: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.test-reviews .card:hover {
+  cursor: pointer;
+  box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5);
+}
+
+.test-reviews .card:hover hr {
+  background-color: #000000;
+}
+.test-reviews .card:hover .layer {
+  top: 0;
+}
+.test-reviews .card .content {
+  position: relative;
+  z-index: 2;
+}
+
+.test-reviews .card .content .img-1 {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto 0px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid white !important;
+}
+.test-reviews .card .content .img-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.test-reviews hr {
+  background-color: rgb(117, 117, 117);
+  width: 80% !important;
+  transition: 1s;
+}
+
+.test-reviews .card-bottoms {
+  text-align: center;
+  padding: 0px 20px 25px;
+}
+.test-reviews .card-bottoms .user-name {
+  font-size: 20px;
+  color: #0071bd;
+  margin-bottom: 10px;
+  font-family: "mulibold";
+}
+.test-reviews .card:hover .description,
+.test-reviews .card:hover .card-bottoms .user-name {
+  color: #000000;
+}
+
+.card-reviews .owl-user-imgs {
+  padding: 10px 10px 20px;
+}
+.card-reviews .owl-user-imgs .user-upload-img {
+  width: 60px;
+  border-radius: 5px;
+  height: 60px;
+  margin: 0px auto;
+}
+.card-reviews .owl-user-imgs .user-upload-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.owl-user-imgs{display:flex;}
