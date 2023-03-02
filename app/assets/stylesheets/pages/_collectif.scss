@@ -1,12 +1,12 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
-card-category {
+.card-category {
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,13 +16,46 @@ card-category {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width:100%;
-  height:100px;
+  object-fit: cover;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 /*---------------
 carousel logos
 --------------*/
-.container-fluid.h-100 {
+/*.container-fluid.h-100 {
   background-color: #FFFFFF;
   padding-right: 0px;
   padding-left: 0px;
@@ -36,11 +69,10 @@ carousel logos
       width: 100%;
       display: inline-block;
       margin: 0px 0;
-      .fab {
         width: calc(100% / 5);
         animation: fade-in 0.5s 
           cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-      }
+      
     }
   }
 }
@@ -66,127 +98,53 @@ carousel logos
 {
   height: 50px !important;
   width: 50px !important;
-}
+}*/
 /*----------------------
 TESTAMONIAL
 -----------------------*/
-.testimonial-page {
-  padding: 40px 0px;
+.question {
+  background: #000000;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 2px;
 }
-.card-reviews {
-  padding-bottom: 30px;
-  height: 100%;
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
 }
-.test-reviews .card {
-  box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
-  height: 100%;
-  transition: 0.8s;
-  background: rgb(224, 244, 255);
-  margin: 0 auto;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-radius: 7px !important;
+
+.question-title p {
+  color: #ffffff;
+  font-weight: bolder;
 }
-.test-reviews .card:after {
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 100%;
-  z-index: 9999;
-  height: 100%;
-  pointer-events: none;
-}
-.test-reviews .description {
-  font-size: 14px;
-  hyphens: none;
-  color: #2c2c2c;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.test-reviews .card-title img {
-  z-index: 99999 !important;
-}
-.test-reviews .card .layer {
-  position: absolute;
-  top: calc(100% - 5px);
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    #A1E533,
-    #A1E533,
-    #A1E533,
-    #A1E533,
-    #A1E533
-  );
-  left: 0;
-  z-index: 1;
-  transition: 0.5s;
-}
-.test-reviews .card:hover {
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
   cursor: pointer;
-  box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5);
+  color: #fff;
 }
 
-.test-reviews .card:hover hr {
-  background-color: #000000;
-}
-.test-reviews .card:hover .layer {
-  top: 0;
-}
-.test-reviews .card .content {
-  position: relative;
-  z-index: 2;
+.question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 5px solid #4f772d;
 }
 
-.test-reviews .card .content .img-1 {
-  width: 100px;
-  height: 100px;
-  margin: 20px auto 0px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 5px solid white !important;
+/* hide text */
+.question-text {
+  display: none;
 }
-.test-reviews .card .content .img-1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.show-text .question-text {
+  display: block;
 }
-.test-reviews hr {
-  background-color: rgb(117, 117, 117);
-  width: 80% !important;
-  transition: 1s;
+.minus-icon {
+  display: none;
 }
-
-.test-reviews .card-bottoms {
-  text-align: center;
-  padding: 0px 20px 25px;
+.show-text .minus-icon {
+  display: inline;
 }
-.test-reviews .card-bottoms .user-name {
-  font-size: 20px;
-  color: #0071bd;
-  margin-bottom: 10px;
-  font-family: "mulibold";
+.show-text .plus-icon {
+  display: none;
 }
-.test-reviews .card:hover .description,
-.test-reviews .card:hover .card-bottoms .user-name {
-  color: #000000;
-}
-
-.card-reviews .owl-user-imgs {
-  padding: 10px 10px 20px;
-}
-.card-reviews .owl-user-imgs .user-upload-img {
-  width: 60px;
-  border-radius: 5px;
-  height: 60px;
-  margin: 0px auto;
-}
-.card-reviews .owl-user-imgs .user-upload-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.owl-user-imgs{display:flex;}
