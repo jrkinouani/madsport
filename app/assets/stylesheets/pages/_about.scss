@@ -61,7 +61,7 @@ CARDS
 .cards.profil
 {
   display: grid;
-  grid-template-columns: 4fr 2fr 4fr 3fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
@@ -94,7 +94,7 @@ CARDS
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards.profil {
-     grid-template-columns: 4fr 2fr 4fr 3fr;
+     grid-template-columns: 2fr 2fr 2fr 2fr;
   }
 }
 /*.aboutus-section {
