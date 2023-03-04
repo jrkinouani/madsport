@@ -50,4 +50,12 @@ h2.accordion-header
 	font-size: 16px;
 } 
 
-
+/*______
+stimulus css
+------------------*/
+.my-content {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--read-more-line-clamp, 2);
+}
