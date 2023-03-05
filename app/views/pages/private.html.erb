@@ -42,100 +42,81 @@
   </div>
 </div>
 
-<section class="mb-5 p-2">
-  <div class="row d-flex justify-content-center">
-    <div class="col-md-10 col-xl-8 text-center">
-      <h3 class="mb-4">Temoignages</h3>
+<div class="container more">
+  <div class="row">
+      <h3 class="sub text-center">Les temoignages</h3>
+    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Floriane</h5>
+      <p class="my-content" data-read-more-target="shortText">
+        <i class="fas fa-quote-left pe-2"></i>
+        Je n'avais jamais enfilé de gants de boxe de ma vie, sans savoir véritablement en quoi consistait la boxe...
+        <i class="fas fa-quote-right pe-2"></i>
+      </p>
+      <p class="my-content" data-read-more-target="longText">
+        <i class="fas fa-quote-left pe-2"></i>
+        Je n'avais jamais enfilé de gants de boxe de ma vie, sans savoir véritablement en quoi consistait la boxe. Mad a su s'adapter à moi à chacune de nos rencontres, à mes attentes, mes envies et ma progression tout au long de nos séances. Sa patience et sa bienveillance m'ont permis de progresser et de devenir encore plus motivée que jamais ! C'est plus qu'un cours mais un véritable échange entre un professeur et son élève
+        <i class="fas fa-quote-right pe-2"></i>
+      </p>
+      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
+        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+      </button>
+      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
+        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+
+      </button> 
+    </div>
+
+    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Victor</h5>
+      <p class="my-content" data-read-more-target="shortText">
+        <i class="fas fa-quote-left pe-2"></i>Agé de plus de 50 ans et pratiquant régulier depuis l’âge de 17 ans...
+        <i class="fas fa-quote-right pe-2"></i>
+      </p>
+      <p class="my-content" data-read-more-target="longText">
+        <i class="fas fa-quote-left pe-2"></i>   Agé de plus de 50 ans et pratiquant régulier depuis l’âge de 17 ans Alexandre a su me motiver et me challenger pour ne pas rester sur mes acquis mais au contraire me pousser à remettre en cause ma pratique et renforcer mon cardio.
+        <i class="fas fa-quote-right pe-2"></i>
+      </p>
+      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
+        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+      </button>
+      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
+        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+      </button>
+    </div>
+
+    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Ilyes</h5>
+        <p class="my-content" data-read-more-target="shortText">
+        J’ai eu la chance d’avoir comme coach le meilleur de tous, ses entraînements m’apportent beaucoup de joie...
+      </p>
+      <p class="my-content" data-read-more-target="longText">
+        J’ai eu la chance d’avoir comme coach le meilleur de tous, ses entraînements m’apportent beaucoup de joie, je me dépense tout en m’amusant, je progresse au fur et à mesure de son accompagnement. J’y prends énormément de plaisir et je recommande à tous.
+      </p>
+      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
+        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+      </button>
+      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
+        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
+
+      </button> 
+    </div>
+    <div class="text-center mt-5">
+      <a class="btn btn-primary btn-lg" href="https://calendly.com/fr" target="blank" type="button">Réservez un cours sur mesure</a>
     </div>
   </div>
-  <div class="row text-center">
-          
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Odile</h5>
-      <div class="question">
-        <div class="question-title">
-        Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex.
-        Alex est un coach bienveillant toujours à l'écoute de mes sensations et conscient de mes capacités physiques mais il sait me challenger pour m’aider à me dépasser.
-        </div>
-        <button type="button" class="question-btn">
-          <span class="plus-icon">
-            <h5>voir plus </h5>
-          </span>
-          <span class="minus-icon">
-             <i class="fa-solid fa-minus"></i>
-          </span>
-        </button>
-        <div class="question-text">
-          <p>
-           Après quelques mois, les résultats n'ont pas tardé à se faire sentir. Plus en forme, je suis très fière de moi et encore surprise d’arriver à enchaîner des jolies pompes en série. Moi qui ne réussissais à peine à enchaîner 5 pompes sur mes genoux au démarrage. Go go go. Alex est le coach qu’il vous faut !"
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Odile</h5>
-      <div class="question">
-        <div class="question-title">
-        Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex.
-        Alex est un coach bienveillant toujours à l'écoute de mes sensations et conscient de mes capacités physiques mais il sait me challenger pour m’aider à me dépasser.
-        </div>
-        <button type="button" class="question-btn">
-          <span class="plus-icon">
-            <h5>voir plus </h5>
-          </span>
-          <span class="minus-icon">
-             <i class="fa-solid fa-minus"></i>
-          </span>
-        </button>
-        <div class="question-text">
-          <p>
-           Après quelques mois, les résultats n'ont pas tardé à se faire sentir. Plus en forme, je suis très fière de moi et encore surprise d’arriver à enchaîner des jolies pompes en série. Moi qui ne réussissais à peine à enchaîner 5 pompes sur mes genoux au démarrage. Go go go. Alex est le coach qu’il vous faut !"
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Odile</h5>
-      <div class="question">
-        <div class="question-title">
-        Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex.
-        Alex est un coach bienveillant toujours à l'écoute de mes sensations et conscient de mes capacités physiques mais il sait me challenger pour m’aider à me dépasser.
-        </div>
-        <button type="button" class="question-btn">
-          <span class="plus-icon">
-            <h5>voir plus </h5>
-          </span>
-          <span class="minus-icon">
-             <i class="fa-solid fa-minus"></i>
-          </span>
-        </button>
-        <div class="question-text">
-          <p>
-           Après quelques mois, les résultats n'ont pas tardé à se faire sentir. Plus en forme, je suis très fière de moi et encore surprise d’arriver à enchaîner des jolies pompes en série. Moi qui ne réussissais à peine à enchaîner 5 pompes sur mes genoux au démarrage. Go go go. Alex est le coach qu’il vous faut !"
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-      <div class="text-center">
-        <a class="btn btn-primary btn-lg" href="https://calendly.com/fr" target="blank" type="button">Réservez un cours sur mesure</a>
-      </div>
-</section>
+</div>
 
 <div class="container-fluid">
   <h5 class="text-center text_map">Nous sommes situé au :</h5>
