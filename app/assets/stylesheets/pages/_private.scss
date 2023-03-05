@@ -4,11 +4,47 @@ h1.text-center.title_private
 	margin-bottom: 30px;
 	color: #FFFFFF;
 }
-
+/*---------------
+CARDS
+----------------*/
 .cards.private{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards.private {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards.private {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards.private {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards.private {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards.private {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 h5.text-center.text_map
 {
@@ -19,8 +55,6 @@ iframe
 {
 	margin-bottom:50px;
 }
-
-
 /*----------------------
 TESTAMONIAL
 -----------------------*/
