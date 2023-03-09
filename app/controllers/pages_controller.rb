@@ -17,6 +17,9 @@ class PagesController < ApplicationController
   def collectif
   end
 
+  def tarifs
+  end
+
   def about
   end
 
