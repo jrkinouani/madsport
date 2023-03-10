@@ -3,6 +3,6 @@ ActionMailer::Base.smtp_settings = {
   address:        "smtp.sendgrid.net",
   port:            587,
   authentication: :plain,
-  user_name: "apikey",
-  password: ENV['SENDGRID_API_KEY'],
+  user_name:      'apikey',
+  password:       Rails.application.credentials.dig(sendgrid: :api_key)
 }
