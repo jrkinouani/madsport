@@ -4,6 +4,6 @@ ActionMailer::Base.smtp_settings = {
   port:            587,
   authentication: :plain,
   user_name:      'apikey',
-  DEFAULT_FROM_EMAIL: 'contact@beyondboxing.fr',
+  DEFAULT_FROM_EMAIL = 'contact@beyondboxing.fr',
   password:       ENV['SENDGRID_API_KEY']
 }
