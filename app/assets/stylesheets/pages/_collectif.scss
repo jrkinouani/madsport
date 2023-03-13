@@ -18,6 +18,11 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   object-fit: cover;
 }
+#img-cover
+{
+  height: 500px;
+  widows: 100%;
+}
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
@@ -147,4 +152,45 @@ TESTAMONIAL
 }
 .show-text .plus-icon {
   display: none;
+}
+/*------------------
+section sponsors
+-------------------*/
+aside.co {
+  background-color: #FFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-bottom:solid 1px #000000;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .img-fluid
+  {
+    height: 200px;
+    widows: 200px;
+  }
+  #img-cover
+{
+  height: 100%;
+  widows: 100%;
+}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .img-fluid
+  {
+    height: 200px;
+    widows: 200px;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .img-fluid
+  {
+    height: 100px;
+    widows: 200px;
+  }
 }
