@@ -118,3 +118,46 @@ button, [type="button"], [type="reset"], [type="submit"] {
 button, [role="button"] {
   cursor: pointer;
 }
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .rounded-circle.shadow-1-strong
+  {
+    width: 100px;
+    height:100px
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .rounded-circle.shadow-1-strong
+  {
+    width: 100px;
+    height:100px
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .rounded-circle.shadow-1-strong
+  {
+    width: 120px;
+    height:120px
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .rounded-circle.shadow-1-strong
+  {
+    width: 150px;
+    height:150px
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .rounded-circle.shadow-1-strong
+  {
+    width: 150px;
+    height:150px
+  }
+}
