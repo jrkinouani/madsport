@@ -1,4 +1,3 @@
-// Specific CSS for your home-page
 .card-category {
   background-size: cover;
   background-position: center;
@@ -13,7 +12,6 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
-
 h1.text-center.p-4
 {
 	margin-top: 30px;
@@ -51,9 +49,9 @@ a
 {
   text-decoration: none;
 }
-/*---------------------------------------
+/*-------
   HERO        
------------------------------------------*/
+--------*/
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -70,14 +68,12 @@ a
   z-index: 2;
   opacity: 0.45;
 }
-
 .hero-section .container {
   position: relative;
   z-index: 2;
   height: 100%;
   padding-bottom: 50px;
 }
-
 .hero-section .container .row {
   height: 100%;
 }
@@ -87,7 +83,6 @@ a
 .video-wrap {
   z-index: -100;
 }
-
 .custom-video {
   position: absolute;
   top: 0;
@@ -96,8 +91,6 @@ a
   width: 100%;
   height: 100%;
 }
-
-
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
@@ -106,7 +99,6 @@ a
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
 /*________________
 TESTAMONIAL
 ------------------*/
@@ -148,11 +140,15 @@ button, [role="button"] {
   .rounded-circle.shadow-1-strong
   {
     width: 100px;
-    height:100px
+    height:100px;
   }
   .col-12.mb-5.text-center
   {
     padding-top: 350px;
+  }
+  .card-category
+  {
+    height: 250px !important;
   }
 }
 
@@ -173,7 +169,7 @@ button, [role="button"] {
   .rounded-circle.shadow-1-strong
   {
     width: 120px;
-    height:120px
+    height:120px;
   }
   .col-12.mb-5.text-center
   {
@@ -186,7 +182,7 @@ button, [role="button"] {
   .rounded-circle.shadow-1-strong
   {
     width: 150px;
-    height:150px
+    height:150px;
   }
 }
 
@@ -195,7 +191,7 @@ button, [role="button"] {
   .rounded-circle.shadow-1-strong
   {
     width: 150px;
-    height:150px
+    height:150px;
   }
   .col-12.mb-5.text-center
   {
