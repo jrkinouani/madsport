@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def faq
   end
 
-  def concept
+  def entreprise
   end
 
   def private

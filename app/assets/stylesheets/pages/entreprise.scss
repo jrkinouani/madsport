@@ -1,0 +1,11 @@
+body.entreprise{
+    background-color: #FFF;
+    padding-top: 100px;
+}
+.demo
+{
+  /*clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z');*/
+  background: linear-gradient(#ff66c4, #ffde59);
+  padding: 40px;
+  clip-path:ellipse(100% 100% at 0% 50%)
+}
