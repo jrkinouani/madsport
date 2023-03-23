@@ -1,11 +1,109 @@
-body.entreprise{
-    background-color: #FFF;
-    padding-top: 100px;
-}
-.demo
+body.entreprise
 {
-  /*clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z');*/
+  background-color: #FFF;
+  padding-top: 100px;
+}
+.container-fluid.entreprise
+{
+  background-color: #F6F1F1;
+}
+.one
+{
   background: linear-gradient(#ff66c4, #ffde59);
+  clip-path:ellipse(100% 100% at 0% 50%);
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-left: 40px;
+  padding-bottom: 0px;
+}
+p.clippy_content
+{
   padding: 40px;
-  clip-path:ellipse(100% 100% at 0% 50%)
+}
+h1.title_baseline
+{
+  color: #ff66c4;
+}
+h3.title_entreprise
+{
+  color: #ff66c4;
+}
+.btn-1 
+{
+  background-image: linear-gradient(to right, #ff66c4, #ffde59);
+  border-radius: 10px;
+}
+.two
+{
+  background: linear-gradient(#ff66c4, #ffde59);
+  clip-path:ellipse(100% 100% at 100% 50% );
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 80px;
+  padding-bottom: 0px;
+}
+/*--------------
+image overlapping
+--------------*/
+// Relevant styles
+.image-stack {
+  display: grid;
+  position: relative; // imperative for the overlapping to work
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%; // slightly arbitrary, keeps proportion once resized
+  z-index: 1; // tells the browser to make this image on top
+}
+
+img.overlapping {
+  width: 60%;
+  display: block;
+}
+h1.title_baseline
+{
+  margin-top: 40px;
+}
+/*------------------
+section sponsors
+-------------------*/
+aside.entreprise
+{
+  background: linear-gradient(#ff66c4, #ffde59);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .img-fluid
+  {
+    height: 200px;
+    widows: 200px;
+  }
+  #img-cover
+  {
+    height: 100%;
+    widows: 100%;
+  }
+}
+/*--------------------
+only mobile
+---------------------*/
+@media (min-width: 100px) and (max-width: 575px) {
+  .col-lg-6.col-md-12.col-sm-12.order-lg-1.order-md-2.order-sm-2{
+    order: 2;
+  }
+  .col-lg-6.col-md-12.col-sm-12.order-lg-2.order-md-1.order-sm-1.clippy{
+    order: 1;
+  }
 }
