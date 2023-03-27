@@ -14,23 +14,12 @@ h2.title_pricing
   font-size: 50px;
   margin-bottom: 50px;
 }
-h2.pricing_1
-{
-  color: red;
-}
-h2.pricing_2
-{
-  color: #19A7CE;
-}
-h2.pricing_3
-{
-  color: #16FF00;
-}
 .pricing-content{}
 .single-pricing
 {
   background: #FFF;
-  padding:40px 20px;
+  padding-top:20px; 
+  padding-bottom: 20px;
   border-radius:5px;
   position:relative;
   color: #000000;
@@ -70,9 +59,11 @@ section#pricing
 .price-head h2 
 {
   font-weight: 600;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
   text-transform: capitalize;
   font-size: 26px;
+  border-bottom: 1px solid #000000;
 }
 .price-head span 
 {
@@ -87,7 +78,7 @@ section#pricing
 .price 
 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 0px;
 }
 .single-pricing{}
@@ -102,6 +93,7 @@ section#pricing
   list-style: none;
   margin-bottom: 20px;
   margin-top: 30px;
+  padding-left: 0px;
 }
 .single-pricing ul li
 {
@@ -177,6 +169,21 @@ button
   border: 2px solid #19A7CE;
   border-radius: 5000px;
   color: #FFFFFF;
+}
+.btn.btn-entreprise
+{
+  background-image: linear-gradient(to right, #ff66c4, #ffde59);
+  border: none;
+  border-radius: 5000px;
+  color: #000000;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.3s ease 0s;
 }
 .single-pricing-white
 {
