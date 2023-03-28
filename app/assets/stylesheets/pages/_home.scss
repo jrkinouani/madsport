@@ -1,3 +1,37 @@
+section.home_section
+{
+  margin-top: 20px;
+  padding-top: 8rem;
+  background-color: #FFF;
+}
+#hero-content-wrap h1
+{
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  color: red;
+  font-size: 3.5rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+#hero-content-wrap p
+{
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+/*------------------
+section sponsors
+-------------------*/
+aside.home {
+  background-color: #FFF;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-bottom:solid 1px #000000;
+  margin-top: 0px !important;
+}
+/*************/
 .card-category {
   background-size: cover;
   background-position: center;
@@ -52,7 +86,7 @@ a
 /*-------
   HERO        
 --------*/
-.hero-section {
+/*.hero-section {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
@@ -76,11 +110,11 @@ a
 }
 .hero-section .container .row {
   height: 100%;
-}
+}*/
 /*---------------------------------------
   VIDEO              
 -----------------------------------------*/
-.video-wrap {
+/*.video-wrap {
   z-index: -100;
 }
 .custom-video {
@@ -90,15 +124,15 @@ a
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
+}*/
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
-.site-header {
+/*.site-header {
   background-color: var(--primary-color);
   padding-top: 12px;
   padding-bottom: 12px;
-}
+}*/
 /*________________
 TESTAMONIAL
 ------------------*/
