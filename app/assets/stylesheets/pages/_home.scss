@@ -1,5 +1,22 @@
-.section_home{
-	background-color: red;
-	margin-top: 200px;
-	height: 300px;
+.section_home
+{
+	background-color: #FFFFFF;
+	padding-top: 10rem;
+	padding-bottom: 7rem;
+}
+.section_home h1
+{
+	color: red;
+}
+.section_home p
+{
+	color: #000000;
+}
+@media (min-width: 100px) and (max-width: 575px) {
+  .col-lg-6.col-md-12.col-sm-12.order-md-1.order-sm-1{
+    order: 1;
+  }
+  .col-lg-6.col-md-12.col-sm-12.order-md-2.order-sm-2{
+    order: 2;
+  }
 }
