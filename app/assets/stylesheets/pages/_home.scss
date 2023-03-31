@@ -6,7 +6,7 @@
 .section_home h1
 {
 	color: red;
-	font-size: 50px;
+	font-size: 60px;
 }
 .section_home p
 {
@@ -78,3 +78,44 @@ h5.aside-home
   margin-top: 20px;
   margin-left: 20px;
 }
+/*------------------
+WALL LOVE
+------------------*/
+.wall-love
+{
+	background-color: #FFF;
+}
+.card-product {
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  height: 60%;
+  width: 120px;
+  padding-left: 10px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
