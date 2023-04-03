@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get "/about", to: "pages#about"
   get "/collectif", to: "pages#collectif"
+  get "concept", to: "pages#concept"
   get "/entreprise", to: "pages#entreprise"
   get "/faq", to: "pages#faq"
   get "/formation", to: "pages#formation"

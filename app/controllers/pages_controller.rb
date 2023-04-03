@@ -3,6 +3,9 @@ class PagesController < ApplicationController
   def about
   end
 
+  def concept
+  end
+
   def collectif
   end
 
