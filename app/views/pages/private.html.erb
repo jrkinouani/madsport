@@ -1,140 +1,22 @@
-<div class="container-fluid mt mb-5">
-  <h1 class="text-center title_private">Coaching privé</h1>
-  <div class="row featurette mb-5">
-    <div class="col-md-8 offset-md-2 mt-5">
-      <h2 class="text-center featurette-heading fw-normal lh-1">
-        <span class="text-muted">See for yourself.</span>
-      </h2>
-      <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.
-      </p>
-    </div>
-  </div>
-</div>
+<div class="section_private">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center">
+      Une attention de chaque instant <br>
+      qui se décline en 3 accompagnements</h1>
 
-<div class="section_card mt-5">
-  <div class="container-fluid">
-    <div class="cards private">
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(facetoface.jpg);">
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(1_contre_1_ext.jpg)">
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(1_contre_1_int.jpg)">
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(facetoface_1.jpg)">
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Madflow.PNG)">   
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(1_contre_1.jpg)">
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Greg.PNG)"> 
-        </div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(G5.jpg)">
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="container more">
-  <div class="row">
-    <h3 class="sub text-center">Les temoignages</h3>
-    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      <div class="col-lg-6 col-md-6">
+        <h2 class="text-center">
+          Un cours sur mesure pour une attention dédiée
+        </h2>
       </div>
-      <h5 class="mb-3">Odile</h5>
-      <p class="my-content" data-read-more-target="shortText">
-        <i class="fas fa-quote-left pe-2"></i>
-        Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex...
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <p class="my-content" data-read-more-target="longText">
-        <i class="fas fa-quote-left pe-2"></i>
-        Je recherchais des séances de sport avec un coach pour me sentir plus en forme, me muscler tout en m’affinant. J’ai suivi 2 séances par semaine avec Alex.
-        Alex est un coach bienveillant toujours à l'écoute de mes sensations et conscient de mes capacités physiques mais il sait me challenger pour m’aider à me dépasser.
-        Après quelques mois, les résultats n'ont pas tardé à se faire sentir. Plus en forme, je suis très fière de moi et encore surprise d’arriver à enchaîner des jolies pompes en série. Moi qui ne réussissais à peine à enchaîner 5 pompes sur mes genoux au démarrage. Go go go. Alex est le coach qu’il vous faut !
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
-        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button>
-      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
-        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button> 
-    </div>
-
-    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      <div class="col-lg-6 col-md-6">
+        <iframe width="100%" height="300px" src="https://www.youtube.com/embed/HTYgFl8NuNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        <div class="text-center">
+          <%= link_to "Réserver un cours privé", "https://calendly.com/madboxing/", class: "btn btn-home", target:"blank"%> 
+        </div>
       </div>
-      <h5 class="mb-3">Laure</h5>
-      <p class="my-content" data-read-more-target="shortText">
-        <i class="fas fa-quote-left pe-2"></i>
-        Appréhender un sport de combat n’est pas chose aisée. Il faut donc trouver le bon coach qui va nous permettre de nous préparer  psychiquement (sans nous démotiver par un cadrage trop militaire ) et physiquement...
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <p class="my-content" data-read-more-target="longText">
-        <i class="fas fa-quote-left pe-2"></i>Appréhender un sport de combat n’est pas chose aisée. Il faut donc trouver le bon coach qui va nous permettre de nous préparer  psychiquement (sans nous démotiver par un cadrage trop militaire ) et physiquement . Alexandre applique une méthode des plus efficaces. En effet, après un échange sur vos motivations, votre besoin en terme d’intensité des séances, votre souhait sur les zones du corps à travailler…,Alexandre crée un programme d’exercices personnalisés ambitieux mais atteignables. Soyez prêts à aller chercher vos limites car Alexandre ne vous laissera pas vous reposer sur vos lauriers mais tout cela avec une grande bienveillance. Si vous souhaitez améliorer votre cardio, votre tonicité, développer votre agilité, votre coordination  et retrouver une hygiène de vie saine; ne cherchez pas plus loin car Alexandre est le coach qu’il vous faut.
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
-        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button>
-      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
-        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button>
-    </div>
-
-    <div class="col-md-4 mb-5 text-center" data-controller="read-more">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Greg</h5>
-        <p class="my-content" data-read-more-target="shortText">
-        <i class="fas fa-quote-left pe-2"></i>
-        Motivation et inspiration sont les maîtres mots d'un cours avec Mad ! Mixant l'apprentissage théorique de la boxe française ainsi que le renforcement musculaire...
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <p class="my-content" data-read-more-target="longText">
-        <i class="fas fa-quote-left pe-2"></i>
-        Motivation et inspiration sont les maîtres mots d'un cours avec Mad ! Mixant l'apprentissage théorique de la boxe française ainsi que le renforcement musculaire, Mad sait trouver les mots pour apprendre à se dépasser pour, au final, un bien être physique et mental.
-        <i class="fas fa-quote-right pe-2"></i>
-      </p>
-      <button class="text-yellow-600" type= "button" data-read-more-target="moreButton" data-action="read-more#showMore">
-        Lire plus<i class='fas fa-arrow-down'style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button>
-      <button class="text-yellow-600" data-read-more-target="lessButton" data-action="read-more#showLess">
-        Lire moins<i class='fas fa-arrow-up' style='font-size:18px;color:#A1E533;background-color: #000000;'></i>
-      </button> 
-    </div>
-    <div class="text-center mt-5">
-      <a class="btn btn-primary btn-lg" href="https://calendly.com/madboxing/coaching-prive?month=2023-03" target="blank" type="button">Réservez un cours sur mesure</a>
     </div>
   </div>
 </div>
-
-<div class="container-fluid">
-  <h5 class="text-center text_map">Nous sommes situé au :</h5>
-  <div class="row">
-    <div class="col-md-6">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.4158334965214!2d2.235931715676119!3d48.90746917929234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665ad6cd13caf%3A0x70047366a95632fe!2s89%20Bd%20national%2C%2092250%20La%20Garenne-Colombes!5e0!3m2!1sfr!2sfr!4v1677958598383!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="col-md-6">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.5906541278664!2d2.254051315676697!3d48.92319077929399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665c1640a57e5%3A0x5ef751699d63f026!2s71%20Rue%20du%20Bournard%2C%2092700%20Colombes!5e0!3m2!1sfr!2sfr!4v1677958774033!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript">
-  let questions = document.querySelectorAll(".question");
-
-  questions.forEach(function (question) {
-    let btn = question.querySelector(".question-btn");
-
-    btn.addEventListener("click", function () {
-      question.classList.toggle("show-text");
-    });
-  });
-</script>
