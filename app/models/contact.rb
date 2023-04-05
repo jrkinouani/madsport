@@ -1,12 +1,16 @@
 class Contact < MailForm::Base
-  attribute :name,      validate: true
   attribute :email,     validate: /\A([\w.%+\-]+)@([\w\-]+\.)+(\w{2,})\z/i
+  attribute :first_name,      validate: true
+  attribute :last_name,      validate: true
+  attribute :company
+  attribute :phone
+  attribute :job
   attribute :message
   attribute :objet
 
   def headers
     {
-      subject: "Contact Form, #{name} #{email}",
+      subject: "Contact Form, #{first_name} #{last_name} #{email}",
       to: "contact@beyondboxing.fr",
       from: "contact@beyondboxing.fr"
     }

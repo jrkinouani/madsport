@@ -1,19 +1,21 @@
+.section_contact
+{
+  background-color: #B2B2B2;
+}
 h1.page_title
 {
-	margin-top: 150px;
-	font-size: 50px;
-	color: #FFF;
+  margin-top: 120px;
+  font-size: 50px;
+  color: #000;
 }
 #contact_content
 {
-	padding: 20px;
-	border: 1px solid #FFF;
-	margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .label
 {
-	color: #FFF;
-	
+  color: #000;	
 }
 /*p{
 	margin:0 0 25px;
@@ -29,12 +31,14 @@ a:hover,a:focus{
 	color:#26a5d3;
 }*/
 
-#contact{
-	background:#333333;
-	color:#f4f4f4;
-	padding-bottom:80px;
+#contact
+{
+  background:#333333;
+  color:#f4f4f4;
+  padding-bottom:80px;
 }
 
-textarea.form-control{
-    height:100px;
+textarea.form-control
+{
+  height:100px;
 }
