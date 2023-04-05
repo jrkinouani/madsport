@@ -6,7 +6,6 @@ class Contact < MailForm::Base
   attribute :phone
   attribute :job
   attribute :message
-  attribute :objet
 
   def headers
     {
