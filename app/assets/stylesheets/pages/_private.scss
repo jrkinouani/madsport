@@ -1,6 +1,7 @@
 .section_private
 {
   padding-top: 8rem;
+  padding-bottom: 4rem;
   background-color: #FFF;
 }
 .section_private h1
@@ -11,4 +12,43 @@
 {
   margin-bottom: 2rem;
   color: blue;
+  font-weight: 600;
 }
+.section_private_1
+{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #f2f4f6;
+}
+.section_private_1 .card-product-private
+{
+  overflow: hidden;
+  height: 200px;
+  background-color: #f2f4f6;
+  display: flex;
+  align-items: center;
+}
+.section_private_1 h2
+{
+  margin-bottom: 2rem;
+  color: blue;
+  font-weight: 600;
+}
+/*----------
+CARD
+-----------*/
+.card-product-private {
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.card-product-private img
+{
+  margin-right: 10px;
+}
+/*-----------
+MODAL
+___________*/
+
