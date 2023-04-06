@@ -33,4 +33,7 @@ class PagesController < ApplicationController
   def tarifs
   end
 
+  def condition  
+  end
+
 end
