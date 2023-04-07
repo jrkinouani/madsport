@@ -1,3 +1,12 @@
+@media (min-width: 100px) and (max-width: 575px) {
+    h2.title_pricing
+  {
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px !important;
+    margin-bottom: 50px;
+  }
+}
 body.pricing
 {
   margin-top:20px;
@@ -7,6 +16,7 @@ body.pricing
 {
   color: #000000;
   margin-bottom: 30px;
+  font-size: 23px;
 }
 b.baseline
 {
@@ -16,8 +26,9 @@ b.baseline
 }
 h2.title_pricing
 {
+  font-weight: 600;
   color: #000000;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 50px;
 }
 .pricing-content{}
@@ -154,10 +165,10 @@ button
   border-radius: 5000px;
   color: #FFFFFF;
 }
-.btn.btn-pricing_1
+.btn.btn-pricing_stage
 {
-  background:#19A7CE;
-  border: 2px solid #19A7CE;
+  background:#38b6ff;
+  border: 2px solid #38b6ff;
   border-radius: 5000px;
   color: #000000;
   display: inline-block;
@@ -168,18 +179,19 @@ button
   padding-right: 20px;
   padding-left: 20px;
   transition: all 0.3s ease 0s;
+  margin-top: 59px;
 }
-.btn.btn-pricing_1 a:hover
+.btn.btn-pricing_stage a:hover
 {
   background:#19A7CE;
   border: 2px solid #19A7CE;
   border-radius: 5000px;
   color: #FFFFFF;
 }
-.btn.btn-entreprise
+.btn.btn-pricing_tarif
 {
-  background-image: linear-gradient(to right, #ff66c4, #ffde59);
-  border: none;
+  background:#38b6ff;
+  border: 2px solid #38b6ff;
   border-radius: 5000px;
   color: #000000;
   display: inline-block;
@@ -190,6 +202,26 @@ button
   padding-right: 20px;
   padding-left: 20px;
   transition: all 0.3s ease 0s;
+}
+.btn.btn-pricing_tarif a:hover
+{
+  background:#19A7CE;
+  border: 2px solid #19A7CE;
+  border-radius: 5000px;
+  color: #FFFFFF;
+}
+.btn.btn-biz
+{
+  background-color: #d9d9d9;
+  color: #000;
+  border-radius: 5px;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid #d9d9d9;
+  margin-top: 8px;
 }
 .single-pricing-white
 {
