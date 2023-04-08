@@ -23,3 +23,24 @@ h6.droits
 {
   margin-top:10px !important;
 }
+@media (min-width: 100px) and (max-width: 575px) {
+    h1.footer.text-center.mt-5
+  {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) {
+   h1.footer.text-center.mt-5
+  {
+    font-size: 20px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+   h1.footer.text-center.mt-5
+  {
+    font-size: 20px;
+  }
+}
+
