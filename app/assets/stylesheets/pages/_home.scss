@@ -30,6 +30,20 @@
     height: 50% !important;
   }
 }
+@media (min-width: 576px) {
+  img.img-fluid{
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  img.img-fluid{
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
 .section_sponsor
 {
 	background-color: #FFFFFF;
