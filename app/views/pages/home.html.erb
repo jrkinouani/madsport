@@ -19,7 +19,63 @@
 
   </div>
 </div>
-<div class="section_sponsor">
+ <section slide>
+   <div class="container">  
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="ASC-BNP.png" class="img-fluid">
+        </div>
+        <div class="slide">
+          <img src="b9.jpg" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="CNOSF.svg.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="csme.jpg" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="kabubu.png" class="img-fluid">
+        </div>
+        <div class="slide" style="margin-right: 60px !important;">
+        <img src="colosport-logo.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="logo-paris.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="aljt-logo.png" class="img-fluid">
+        </div>
+        <div class="slide">
+          <img src="ASC-BNP.png" class="img-fluid">
+        </div>
+        <div class="slide">
+          <img src="b9.jpg" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="CNOSF.svg.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="csme.jpg" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="kabubu.png" class="img-fluid">
+        </div>
+        <div class="slide" style="margin-right: 60px !important;">
+        <img src="colosport-logo.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="logo-paris.png" class="img-fluid">
+        </div>
+        <div class="slide">
+        <img src="aljt-logo.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<!-- <div class="section_sponsor">
   <div class="container">
     <div class="row">
       <div class="col-lg-1 col-md-3 col-sm-12  col-xs-8.offset-xs-2 text-center mb-5">
@@ -55,7 +111,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="aside-home">
   <hr>
@@ -69,7 +125,7 @@
             <h5 class="aside-home text-center">Coaching privé</h5>
             <h5 class="aside-home text-center">Coaching en duo</h5>
             <div class="text-center">
-              <a href="#" class="btn btn-pricing_1 btn-lg active mt-5" role="button" aria-pressed="true">En savoir plus</a>
+              <%= link_to "En savoir plus", private_path, class: "btn btn-hp hp-btn"%>
             </div>
           </div>
         </div>
@@ -89,6 +145,10 @@
     </div>
   </div>
 </div>
+
+<!-------------------------->
+
+<!--------------------------->
 
 <div class="wall-love">
   <hr>
@@ -193,3 +253,9 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
