@@ -5,15 +5,17 @@ body.entreprise
 }
 .container-fluid.entreprise
 {
-  background-color: #F6F1F1;
+  background-color: #6D6E71;
+}
+img.img-fluid.entreprise{
+  height: 100% !important;
+  width: 100% !important;
 }
 .one
 {
-  background: linear-gradient(#ff66c4, #ffde59);
-  clip-path:ellipse(100% 100% at 0% 50%);
+  /*background: linear-gradient(#ff66c4, #ffde59);
+  clip-path:ellipse(100% 100% at 0% 50%);*/
   padding-top: 50px;
-  padding-right: 80px;
-  padding-left: 40px;
   padding-bottom: 0px;
 }
 p.clippy_content
@@ -30,6 +32,12 @@ h1.title_baseline
   margin-bottom: 40px;
   font-size: 45px !important;
 }
+h2.title_pricing.entreprise{
+  font-weight: 600;
+  color: #FF914d;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
 h3.title_entreprise
 {
   color: #ff66c4;
@@ -40,19 +48,22 @@ h6.sub_title_entreprise
 }
 .btn-1 
 {
-  background-image: linear-gradient(to right, #ff66c4, #ffde59);
+  background-color: #FF914d;
   border-radius: 20px;
   padding: 10px;
   font-size: 20px;
   margin-top: 30px;
 }
+img.img-fluid.icon
+{
+  height: 50% !important;
+  width: 21% !important;
+}
 .two
 {
-  background: linear-gradient(#ff66c4, #ffde59);
-  clip-path:ellipse(100% 100% at 100% 50% );
+  /*background: linear-gradient(#ff66c4, #ffde59);
+  clip-path:ellipse(100% 100% at 100% 50% );*/
   padding-top: 50px;
-  padding-right: 40px;
-  padding-left: 80px;
   padding-bottom: 0px;
 }
 /*--------------
