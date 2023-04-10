@@ -47,3 +47,8 @@ img.img-tag
   border: 1Px solid #000;
   height: 310px;
 }
+@media (min-width: 576px) {
+  h1.mad{
+  	text-align: center;
+  }
+  }
