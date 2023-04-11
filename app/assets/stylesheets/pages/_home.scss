@@ -5,13 +5,30 @@
 }
 .section_home h1
 {
-	color: red;
+	color: #FF914d !important;
   
 	font-size: 60px;
 }
 .section_home p
 {
 	color: #000000;
+}
+p.baseline
+{
+  font-size: 23px;
+}
+a.link_merci
+{
+  color: #FF914d !important;
+  font-size: 23px;
+  text-decoration: underline;
+  margin: 10px;
+}
+a.link_merci:hover
+{
+  color: orange !important;
+  font-size: 23px;
+  text-decoration: underline;
 }
 /*------------------
 MEDAIS QUERIES
