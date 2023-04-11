@@ -5,9 +5,14 @@
 }
 .section_concept h1
 {
-	color: red;
-	padding-top: 40px;
+	color: #FF914d !important;
 	font-size: 50px;
+}
+.section_concept h2
+{
+	color: #FF914d !important;
+	font-size: 50px;
+	margin-top: 60px;
 }
 .section_concept p
 {
@@ -34,7 +39,11 @@ end certificate
 -------------*/
 img.manifesto
 {
-	margin-top: 100px;
+	margin-top: 10px;
+}
+p.manifesto
+{
+	margin-top: 20px;
 }
 img.img-tag
 {
