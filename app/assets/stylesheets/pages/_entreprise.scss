@@ -5,9 +5,10 @@ body.entreprise
 }
 .container-fluid.entreprise
 {
-  background-color: #6D6E71;
+  background-color: #d9d9d9;
 }
-img.img-fluid.entreprise{
+img.img-fluid.entreprise
+{
   height: 100% !important;
   width: 100% !important;
 }
@@ -20,7 +21,7 @@ img.img-fluid.entreprise{
 }
 p.clippy_content
 {
-  padding: 40px;
+  font-size: 20px;
 }
 h1.title_baseline, .title_baseline.h1
 {
@@ -64,11 +65,6 @@ img.img-fluid.boxe
   height: 80%;
   width: 70%;
 }
-img.img-fluid.centre.social
-{
-  height: 100% !important;
-  width: 100% !important;
-}
 .two
 {
   /*background: linear-gradient(#ff66c4, #ffde59);
@@ -93,16 +89,7 @@ aside.entreprise
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .img-fluid
-  {
-    height: 200px;
-    widows: 200px;
-  }
-  #img-cover
-  {
-    height: 100%;
-    widows: 100%;
-  }
+  
 }
 @media (min-width: 768px){
   
@@ -140,11 +127,17 @@ only mobile
     {
       font-size: 20px;
     }
-    img.overlapping {
-    width: 80%;
-    display: block;
-  }
+    img.overlapping
+    {
+      width: 80%;
+      display: block;
+    }
       img.img-fluid.boxe
+    {
+      height: 100% !important;
+      width: 100% !important;
+    }
+    img.img-fluid.entreprise
     {
       height: 100% !important;
       width: 100% !important;
