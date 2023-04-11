@@ -40,7 +40,7 @@ h2.title_pricing.entreprise{
 }
 h3.title_entreprise
 {
-  color: #ff66c4;
+  color: #FF914d;
 }
 h6.sub_title_entreprise
 {
@@ -48,7 +48,7 @@ h6.sub_title_entreprise
 }
 .btn-1 
 {
-  background-color: #FF914d;
+  background-color: #FF914d !important;
   border-radius: 20px;
   padding: 10px;
   font-size: 20px;
@@ -59,38 +59,22 @@ img.img-fluid.icon
   height: 50% !important;
   width: 21% !important;
 }
+img.img-fluid.boxe
+{
+  height: 80%;
+  width: 70%;
+}
+img.img-fluid.centre.social
+{
+  height: 100% !important;
+  width: 100% !important;
+}
 .two
 {
   /*background: linear-gradient(#ff66c4, #ffde59);
   clip-path:ellipse(100% 100% at 100% 50% );*/
   padding-top: 50px;
   padding-bottom: 0px;
-}
-/*--------------
-image overlapping
---------------*/
-// Relevant styles
-.image-stack {
-  display: grid;
-  position: relative; // imperative for the overlapping to work
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.image-stack__item--bottom {
-  grid-column: 4 / -1;
-  grid-row: 1;
-}
-
-.image-stack__item--top {
-  grid-row: 1;
-  grid-column: 1 / span 8;
-  padding-top: 20%; // slightly arbitrary, keeps proportion once resized
-  z-index: 1; // tells the browser to make this image on top
-}
-
-img.overlapping {
-  width: 60%;
-  display: block;
 }
 h1.title_baseline
 {
@@ -121,26 +105,24 @@ aside.entreprise
   }
 }
 @media (min-width: 768px){
-  .image-stack {
-    margin-top: 50px;
-  }
-}
-@media (min-width: 992px){
-  .image-stack {
-    margin-top: 50px;
-  }
-  img.overlapping {
-    width: 60%;
-  }
+  
 }
 /*--------------------
 only mobile
 ---------------------*/
 @media (min-width: 100px) and (max-width: 575px) {
-  .col-lg-6.col-md-12.col-sm-12.order-lg-1.order-md-2.order-sm-2{
-    order: 2;
+  .col-lg-6.col-md-12.col-sm-12.order-lg-1.order-md-2.order-sm-2.clippy.clippy{
+    order: 1;
   }
   .col-lg-6.col-md-12.col-sm-12.order-lg-2.order-md-1.order-sm-1.clippy{
+    order: 2;
+  }
+  .col-lg-6.col-md-12.col-sm-12.order-lg-1.order-md-2.order-sm-2.content.one
+  {
+     order: 2;
+  }
+  .col-lg-6.col-md-12.col-sm-12.order-lg-2.order-md-1.order-sm-1.content.two
+  {
     order: 1;
   }
   h1.title_baseline
@@ -162,4 +144,9 @@ only mobile
     width: 80%;
     display: block;
   }
+      img.img-fluid.boxe
+    {
+      height: 100% !important;
+      width: 100% !important;
+    }
 }
