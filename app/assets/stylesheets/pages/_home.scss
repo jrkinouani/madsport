@@ -65,11 +65,21 @@ MEDAIS QUERIES
     height: 80% !important;
     width: 80% !important;
   }
+  img.img-fluid.jch
+  {
+    width: 100%!important;
+    height: 74%!important;
+  }
 }
 @media (min-width: 576px) {
   img.img-fluid{
     width: 50% ;
     height: 50% ;
+  }
+  img.img-fluid.jch
+  {
+    width: 100%!important;
+    height: 74%!important;
   }
   img.img-fluid.cnosf
   {
