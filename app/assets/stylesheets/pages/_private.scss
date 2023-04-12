@@ -1,8 +1,31 @@
+.container.title
+{
+  padding-top: 7rem;
+}
 .section_private
 {
-  margin-top: 8rem;
+  margin-top: 1rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #FFF;
+  background-color: #d9d9d9;
+}
+.section_private.duo
+{
+  margin-top: 3.5rem;
+  padding-bottom: 4rem;
+  background-color: #d9d9d9;
+}
+.section_private h5
+{
+  color:#FF914d !important;
+}
+.section_private.duo h5
+{
+  color: #FF914d !important;
+}
+.section_private_1 h5
+{
+  color: #FF914d !important;
 }
 .section_private h1
 {
@@ -18,15 +41,14 @@
 }
 .section_private_1
 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #f2f4f6;
+  padding-top: 3.5rem;
+  background-color: #FFF;
 }
 .section_private_1 .card-product-private
 {
   overflow: hidden;
   height: 200px;
-  background-color: #f2f4f6;
+  background-color: #FFF;
   display: flex;
   align-items: center;
 }
@@ -47,7 +69,7 @@ CARD
 .card-product-private {
   overflow: hidden;
   height: 200px;
-  background: white;
+  background: #d9d9d9;
   display: flex;
   align-items: center;
 }
