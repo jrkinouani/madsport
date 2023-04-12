@@ -1,7 +1,12 @@
+.container.merci
+{
+  padding-top: 7rem;
+}
 .section_merci
 {
-	background-color: #FFF;
-	padding-top: 7rem;
+	background-color: #d9d9d9;
+	padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 .btn.btn-outline-secondary.disabled
 {
@@ -26,6 +31,7 @@ p.text-center.merci
   break-inside: avoid;
   margin-bottom: 16px;
   border-radius: 5px;
+  background-color: #FFF;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 .gallery-item h6
