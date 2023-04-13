@@ -11,6 +11,7 @@ body.entreprise
 .container.video
 {
   padding-top: 3rem;
+  text-align: justify;
 }
 img.img-fluid.entreprise
 {
@@ -19,9 +20,12 @@ img.img-fluid.entreprise
 }
 .one
 {
-  /*background: linear-gradient(#ff66c4, #ffde59);
-  clip-path:ellipse(100% 100% at 0% 50%);*/
   padding-top: 50px;
+  padding-bottom: 0px;
+}
+.colonie
+{
+  padding-top: 5px;
   padding-bottom: 0px;
 }
 p.clippy_content
@@ -43,6 +47,21 @@ h2.title_pricing.entreprise{
   color: #FF914d;
   font-size: 40px;
   margin-bottom: 50px;
+}
+h3.title_comité
+{
+  color: #FF914d;
+  margin-top: 43px;
+}
+h3.title_scolaire
+{
+  color: #FF914d;
+  margin-top: -8px;
+}
+h3.title_colonie
+{
+  color: #FF914d;
+  margin-top: 0px;
 }
 h3.title_entreprise
 {
@@ -67,8 +86,8 @@ img.img-fluid.icon
 }
 img.img-fluid.boxe
 {
-  height: 80%;
-  width: 70%;
+  height: 100%;
+  width: 80%;
 }
 .two
 {
@@ -94,10 +113,28 @@ aside.entreprise
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  
+    .container.video
+  {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+    .one
+  {
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
 }
 @media (min-width: 768px){
-  
+    .container.video
+  {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+    .one
+  {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
 }
 /*--------------------
 only mobile
@@ -105,6 +142,7 @@ only mobile
 @media (min-width: 100px) and (max-width: 575px) {
   .col-lg-6.col-md-12.col-sm-12.order-lg-1.order-md-2.order-sm-2.clippy.clippy{
     order: 1;
+    margin-bottom: 20px;
   }
   .col-lg-6.col-md-12.col-sm-12.order-lg-2.order-md-1.order-sm-1.clippy{
     order: 2;
@@ -151,6 +189,10 @@ only mobile
       {
         width: 90% !important;
         height: 66% !important;
+      }
+      p.clippy_content
+      {
+        margin-bottom: 30px;
       }
 }
 
