@@ -135,6 +135,12 @@ aside.entreprise
     padding-top: 50px;
     padding-bottom: 0px;
   }
+  img.img-fluid.colo 
+  {
+    width: 70% !important;
+    height: 55% !important;
+    margin-top: 12px;
+  }
 }
 /*--------------------
 only mobile
@@ -189,6 +195,7 @@ only mobile
       {
         width: 90% !important;
         height: 66% !important;
+        margin-left: -43px;
       }
       p.clippy_content
       {

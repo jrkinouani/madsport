@@ -45,6 +45,10 @@ MEDAIS QUERIES
     color: red;
     font-size: 37px;
   }
+  img.img-fluid.asc
+  {
+    margin-top: 3px;
+  }
   img.img-fluid.cnosf
   {
     width: 45% !important;
@@ -64,13 +68,14 @@ MEDAIS QUERIES
   {
     width: 60% !important;
     height: 74% !important;
-   margin-top: -3px
+    margin-top: -6px
   }
   img.img-fluid.colo
   {
     width: 70% !important;
     height: 55% !important;
-    margin-top: 1px;
+    margin-top: 13px;
+
   }
   img.img-fluid.b9
   {
@@ -86,6 +91,15 @@ MEDAIS QUERIES
   {
     width: 100%!important;
     height: 74%!important;
+  }
+  img.img-fluid.cergy
+  {
+    margin-top: 12px;
+  }
+  img.img-fluid.aljt
+  {
+    margin-top: 12px;
+    margin-left: 13px;
   }
 }
 @media (min-width: 576px) {
@@ -131,6 +145,15 @@ MEDAIS QUERIES
     height: 80% !important;
     width: 80% !important;
   }
+  img.img-fluid.cergy
+  {
+    margin-top: 12px;
+  }
+  img.img-fluid.aljt
+  {
+    margin-top: 12px;
+    margin-left: 13px;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -154,7 +177,7 @@ MEDAIS QUERIES
   {
     width: 70% !important;
     height: 55% !important;
-    margin-top: 1px;
+    margin-top: 7px;
   }
   img.img-fluid.b9
   {
@@ -165,6 +188,15 @@ MEDAIS QUERIES
   {
     height: 70% !important;
     width: 70% !important;
+  }
+  img.img-fluid.cergy
+  {
+    margin-top: 12px;
+  }
+  img.img-fluid.aljt
+  {
+    margin-top: 12px;
+    margin-left: 13px;
   }
 }
 /*------------------
