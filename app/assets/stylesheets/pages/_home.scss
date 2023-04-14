@@ -107,10 +107,15 @@ MEDAIS QUERIES
     width: 50% ;
     height: 50% ;
   }
+  img.img-fluid.asc
+  {
+    margin-top: 6px;
+  }
   img.img-fluid.jch
   {
-    width: 100%!important;
-    height: 74%!important;
+    width: 100% !important;
+    height: 74% !important;
+    margin-left: -22px;
   }
   img.img-fluid.cnosf
   {
@@ -171,7 +176,7 @@ MEDAIS QUERIES
   {
     width: 60% !important;
     height: 74% !important;
-    margin-top: -3px
+    margin-top: -13px
   }
   img.img-fluid.colo
   {
