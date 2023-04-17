@@ -1,4 +1,3 @@
-<!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
   <!-- Section: Links  -->
   <section class="">
@@ -8,25 +7,27 @@
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div class="text-center">
           <h6 class="text-uppercase fw-bold mb-4">
             A propos
           </h6>
+          <p>
+            <%=  link_to "Concept", concept_path, class: "nav-link"%>
+          </p>
           <p>
             <%= link_to "Contact", new_contact_path, class: "nav-link" %>
           </p>
           <p>
             <%= link_to "FAQ", faq_path, class: "nav-link" %>
           </p>
-          <p>
-            <%= link_to "CGV", condition_path, class: "nav-link" %>
-          </p>
+          </div>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
-          <!-- Links -->
+        <!-- <div class="col-md-6 col-lg-6 col-sm-12 mb-4">
+          <!-- Links
           <button type="button" class="btn btn-outline-secondary btn-lg mb-3"><a href="https://www.beyondboxing.fr/private">Réserver un cours privé</a></button>
           <button type="button" class="btn btn-outline-secondary btn-lg mb-3"><a href="https://www.beyondboxing.fr/contacts/new">Contacter notre équipe</a></button>
 
@@ -34,8 +35,9 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-3 col-sm-12 mb-md-0 mb-4">
+        <div class="col-lg-4 col-md-4 col-sm-12">
           <!-- Links -->
+          <div class="text-center">
           <h6 class="text-uppercase fw-bold mb-4">Services</h6>
           <p>
             <%= link_to "Pour les particuliers", private_path, class: "nav-link" %>
@@ -43,7 +45,34 @@
           <p>
             <%= link_to "Pour les entreprises", entreprise_path, class: "nav-link" %>
           </p>
+          <p>
+            <%= link_to "CGV", condition_path, class: "nav-link" %>
+          </p>
+            
+          </div>
         </div>
+
+        <div class="col-lg-4 col-md-4">
+          <div class="text-center">
+            <h6 class="text-uppercase fw-bold mb-4">Les Réseaux sociaux</h6>
+            <a href="" class="me-2 link-secondary">
+              <%#= image_tag "img/linkedin.png", class:"icon"%>
+            </a>
+            <a href="" class="me-2 link-secondary">
+              <%= image_tag "img/facebook.png", class:"icon"%>
+            </a>
+            <a href="" class="me-2 link-secondary">
+              <%= image_tag "img/new-instagram.png", class:"icon"%>
+            </a>
+            <a href="https://www.youtube.com/@beyongboxingchannel" class="me-2 link-secondary">
+              <%= image_tag "img/youtube.png" , class:"icon"%>
+            </a>
+            <a href="https://www.beyondboxing.fr/contacts/new" class="me-2 link-secondary">
+              <%= image_tag "img/email-bg.png" , class:"icon"%>
+            </a>
+          </div>
+        </div>
+
       </div>
       <!-- Grid row -->
     </div>
@@ -52,23 +81,23 @@
 
   <!-- Copyright -->
   <div class="text-center pb-5">
-    <div class="container">
+    <!-- <div class="container">
       <a href="" class="me-2 link-secondary">
         <%#= image_tag "img/linkedin.png", class:"icon"%>
       </a>
       <a href="" class="me-2 link-secondary">
-        <%= image_tag "img/facebook.png", class:"icon"%>
+        <%#= image_tag "img/facebook.png", class:"icon"%>
       </a>
       <a href="" class="me-2 link-secondary">
-        <%= image_tag "img/new-instagram.png", class:"icon"%>
+        <%#= image_tag "img/new-instagram.png", class:"icon"%>
       </a>
       <a href="https://www.youtube.com/@beyongboxingchannel" class="me-2 link-secondary">
-        <%= image_tag "img/youtube.png" , class:"icon"%>
+        <%#= image_tag "img/youtube.png" , class:"icon"%>
       </a>
       <a href="https://www.beyondboxing.fr/contacts/new" class="me-2 link-secondary">
-        <%= image_tag "img/email-bg.png" , class:"icon"%>
+        <%#= image_tag "img/email-bg.png" , class:"icon"%>
       </a>
-    </div>
+     </div>-->
     <h6 class="droits">
       
         ©2023 Beyond Boxing Tous droits réservés
@@ -77,4 +106,4 @@
   </div>
   <!-- Copyright -->
 </footer>
-<!-- Footer -->
+<!-- Footer
