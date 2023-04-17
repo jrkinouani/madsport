@@ -5,19 +5,25 @@
 .section_private
 {
   margin-top: 1rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #d9d9d9;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #FFF;
 }
 .section_private.duo
 {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   padding-bottom: 4rem;
+  padding-top: 4rem;
   background-color: #d9d9d9;
 }
 .section_private h5
 {
   color:#000;
+}
+h6.name
+{
+  color: #19A7CE !important;
+  text-transform: capitalize;
 }
 .section_private.duo h5
 {
@@ -73,9 +79,21 @@ CARD
 .card-product-private {
   overflow: hidden;
   height: 200px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+}
+.section_private.duo .card-product-private
+{
+  overflow: hidden;
+  height: 200px;
   background: #d9d9d9;
   display: flex;
   align-items: center;
+}
+.section_private.duo h6
+{
+  margin-top: 5px;
 }
 .card-product-private img
 {
@@ -84,4 +102,17 @@ CARD
 /*-----------
 MODAL
 ___________*/
-
+img.img-fluid.duo
+{
+  height: 80% !important;
+  width: 100% !important;
+  margin-top: 13px;
+}
+#last_col
+{
+  margin-top: 13px;
+}
+#two_col
+{
+  margin-top: 15px;
+}
