@@ -112,3 +112,16 @@ img.img-fluid.duo
 {
   margin-top: 15px;
 }
+@media screen and (max-width: 500px) {
+  #two_link.text-center
+  {
+    padding-bottom: 50px !important;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #two_link.text-center
+  {
+    padding-bottom: 50px !important;
+  }
+}
+
