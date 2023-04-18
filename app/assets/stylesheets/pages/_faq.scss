@@ -9,7 +9,11 @@
 	margin-bottom: 50px;
   border: 0px !important;
 }
-
+.accordion-body
+{
+  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  font-size: 18px;
+}
 .accordion-button::after {
     background-image: url("https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-plus-2.png&r=255&g=113&b=5");
     transform: scale(0.75) !important;
