@@ -35,5 +35,8 @@ class PagesController < ApplicationController
 
   def condition  
   end
+  
+  def calendly_privee
+  end
 
 end
