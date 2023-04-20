@@ -87,9 +87,8 @@ CARD
   display: flex;
   align-items: center;
 }
-.section_private.duo h6
-{
-  margin-top: 5px;
+.section_private.duo h6, .section_private.duo .h6 {
+  margin-top: 40px;
 }
 .card-product-private img
 {
@@ -124,4 +123,3 @@ img.img-fluid.duo
     padding-bottom: 50px !important;
   }
 }
-
