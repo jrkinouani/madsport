@@ -1,15 +1,6 @@
 class PagesController < ApplicationController
-  
-  def about
-  end
 
   def concept
-  end
-
-  def collectif
-  end
-
-  def contact
   end
 
   def entreprise
@@ -24,7 +15,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def merci 
+  def merci
   end
 
   def private
@@ -33,9 +24,9 @@ class PagesController < ApplicationController
   def tarifs
   end
 
-  def condition  
+  def condition
   end
-  
+
   def calendly_privee
   end
 
