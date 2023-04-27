@@ -6,7 +6,7 @@
 .section_home h1
 {
 	color: #FF914d !important;
-  
+
 	font-size: 60px;
 }
 .section_home p
@@ -101,6 +101,12 @@ MEDAIS QUERIES
     margin-top: 12px;
     margin-left: 13px;
   }
+  // .card-product img {
+  //   height: 60% !important;
+  //   width: 60% !important;
+  //   padding-left: 10px;
+  //   object-fit: cover;
+  // }
 }
 @media (min-width: 576px) {
   img.img-fluid{
@@ -159,6 +165,12 @@ MEDAIS QUERIES
     margin-top: 12px;
     margin-left: 13px;
   }
+  // .card-product img {
+  //   height: 60% !important;
+  //   width: 60% !important;
+  //   padding-left: 10px;
+  //   object-fit: cover;
+  // }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -216,7 +228,7 @@ END MEDAIS QUERIES
 	background-color: #FFFFFF;
 	padding-bottom: 7rem;
 }
-hr 
+hr
 {
 	margin: 0rem 0;
   border: none;
@@ -305,12 +317,12 @@ WALL LOVE
   align-items: center;
 }
 
-.card-product img {
-  height: 60%;
-  width: 120px;
-  padding-left: 10px;
-  object-fit: cover;
-}
+// .card-product img {
+//   height: 60%;
+//   width: 60%;
+//   padding-left: 10px;
+//   object-fit: cover;
+// }
 
 .card-product h2 {
   font-size: 16px;
@@ -375,7 +387,7 @@ section.slide {
   padding-top: 2rem;
 }
 .slider::before, .slider::after {
- 
+
   content: "";
   height: 100px;
   position: absolute;
@@ -402,4 +414,17 @@ section.slide {
 .slider .slide {
   height: 180px;
   width: 240px;
+}
+.avatar-home {
+  width: 100px;
+  border-radius: 50%;
+  padding-left: 10px;
+  object-fit: cover;
+}
+.avatar-home_1 {
+  width: 100px;
+  border-radius: 50%;
+  padding-left: 10px;
+  object-fit: cover;
+  height: 50%;
 }
