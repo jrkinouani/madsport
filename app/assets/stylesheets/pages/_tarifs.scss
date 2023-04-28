@@ -31,7 +31,7 @@ h2.title_pricing
 .single-pricing
 {
   background: #FFF;
-  padding-top:20px; 
+  padding-top:20px;
   padding-bottom: 20px;
   border-radius:5px;
   position:relative;
@@ -42,7 +42,7 @@ h2.title_pricing
   transition:0.3s;
 }
 @media only screen and (max-width:480px)
-{ 
+{
 .single-pricing {margin-bottom:30px;}
 }
 section#pricing
@@ -70,7 +70,7 @@ section#pricing
   margin-left: -20px;
   position: absolute;
 }
-.price-head h2 
+.price-head h2
 {
   font-weight: 600;
   margin-bottom: 10px;
@@ -79,7 +79,7 @@ section#pricing
   font-size: 26px;
   border-bottom: 1px solid #000000;
 }
-.price-head span 
+.price-head span
 {
   display: inline-block;
   background:#ffaa17;
@@ -89,7 +89,7 @@ section#pricing
   margin-bottom: 20px;
   margin-top: 15px;
 }
-.price 
+.price
 {
   font-weight: 500;
   font-size: 40px;
@@ -112,30 +112,6 @@ section#pricing
 .single-pricing ul li
 {
   line-height: 35px;
-}
-.single-pricing a
-{
-  background:red;
-  border: 2px solid red;
-  border-radius: 5000px;
-  color: #FFFFFF;
-  display: inline-block;
-  font-size: 16px;
-  overflow: hidden;
-  padding:10px 45px;
-  transition: all 0.3s ease 0s;
-}
-.single-pricing a
-{
-  background:red;
-  border: 2px solid red;
-  border-radius: 5000px;
-  color: #FFFFFF;
-  display: inline-block;
-  font-size: 16px;
-  overflow: hidden;
-  padding:10px 45px;
-  transition: all 0.3s ease 0s;
 }
 /*--------------
 button
@@ -235,4 +211,11 @@ button
 .single-pricing-white h1
 {
   color:#000000;
+}
+a.link_tarif
+{
+  color: #FF914d !important;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 10px;
 }
