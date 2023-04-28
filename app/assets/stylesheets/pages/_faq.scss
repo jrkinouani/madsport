@@ -39,10 +39,6 @@ button.accordion-button.collapsed
   border: 0px;
   font-size: 19px;
 }
-h2.accordion-header
-{
-  font-size: 20px;
-}
 .container-720
 {
   width: 95%;
@@ -71,6 +67,8 @@ h2.accordion-header
 {
 	color: #000000 !important;
 	font-size: 23px;
+  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 /*--------
 list-group faq
