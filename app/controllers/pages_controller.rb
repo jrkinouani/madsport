@@ -30,4 +30,7 @@ class PagesController < ApplicationController
   def calendly_privee
   end
 
+  def mentions
+  end
+
 end

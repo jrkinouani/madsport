@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "/faq", to: "pages#faq"
   get "/formation", to: "pages#formation"
   get "/merci", to: "pages#merci"
+  get "/mentions", to: "pages#mentions"
   get "/private", to: "pages#private"
   get "/tarifs", to: "pages#tarifs"
   get "/thanks", to: "contacts#thanks"
