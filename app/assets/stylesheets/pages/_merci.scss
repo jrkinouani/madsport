@@ -90,6 +90,11 @@ p.text-center.merci
     object-fit: cover;
     height: 50%;
   }
+    img.icon-merci
+  {
+    height: 45px !important;
+    width: 35px !important;
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 700px) {
   .gallery {
@@ -110,9 +115,19 @@ p.text-center.merci
     object-fit: cover;
     height: 50%;
   }
+  img.icon-merci
+  {
+    height: 45px !important;
+    width: 35px !important;
+  }
 }
 @media screen and (min-width: 701px) and (max-width: 900px) {
   .gallery {
     column-count: 3;
   }
+}
+img.icon-merci
+{
+  height: 35px;
+  width: 35px;
 }
