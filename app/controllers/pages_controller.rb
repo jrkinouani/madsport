@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  def concept
+  def about
   end
 
   def entreprise
