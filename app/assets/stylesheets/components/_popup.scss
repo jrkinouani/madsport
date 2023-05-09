@@ -1,0 +1,13 @@
+div.popup__wrapper
+{
+  color: white;
+  background-color: black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 20px 50px;
+  width: 60rem;
+  height: 40rem !important;
+  top: calc(50% - 18rem);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  right: calc(50% - 30rem);
+}
