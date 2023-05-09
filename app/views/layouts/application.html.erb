@@ -18,5 +18,27 @@
     <%= render 'layouts/navbar' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
+    <div class="container-fluid">
+
+    <script type="module" src="https://cookieconsent.popupsmart.com/js/CookieConsent.js" >
+    </script>
+    <script type="text/javascript"
+    src="https://cookieconsent.popupsmart.com/js/App.js">
+    </script>
+    <script>
+        popupsmartCookieConsentPopup({
+            "siteName" : "beyondboxing" ,
+            "notice_banner_type": "bottom-dialog",
+            "consent_type": "gdpr",
+            "palette": "dark",
+            "language": "French",
+            "privacy_policy_url" : "https://www.beyondboxing.fr/mentions" ,
+            "preferencesId" : "#open_prefrences_center" ,
+
+        });
+    </script>
+
+<noscript>Cookie Consent by <a href="https://popupsmart.com/" rel="nofollow noopener">Popupsmart Website</a></noscript>
+    </div>
   </body>
 </html>
