@@ -94,7 +94,7 @@ img.img-fluid.icon
 img.img-fluid.boxe
 {
   height: 100%;
-  width: 80%;
+  width: 100%;
   margin-top: 0px;
 }
 .two
@@ -215,14 +215,13 @@ only mobile
       }
 }
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px){
-
+@media (max-width: 768px){
+  img.img-fluid.boxe {
+    height: 100% !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
 }
 // Large devices (desktops, 992px and up)
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  img.img-fluid.boxe {
-    margin-top: 70px !important;
-  }
-}
