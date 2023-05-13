@@ -10,7 +10,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
           <li class="nav-item active">
-           <%= link_to "A propos", about_path, class: "nav-link" %>
+           <%= link_to "A propos", apropos_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item active">
+            <%= link_to "Cours privé", private_path, class: "nav-link"%>
+          </li>
+          <li  class="nav-item active">
+            <%= link_to "Entreprise", entreprise_path, class: "nav-link"%>
           </li>
           <li class="nav-item active">
            <%= link_to "Tarifs", tarifs_path, class: "nav-link" %>
@@ -18,10 +24,12 @@
           <li class="nav-item active">
            <%= link_to "Merci", merci_path, class: "nav-link" %>
           </li>
-           <li class="nav-item active">
-            <%= link_to "Cours privé", private_path, class: "nav-link"%>
+          <li class="nav-item active">
+            <a href=" https://www.youtube.com/@beyondboxingchannel"
+              target="blank">
+              <%= image_tag "img/yt_logo_rgb_light.png", class:"logo-youtube"%>
+            </a>
           </li>
-          <%= link_to "Entreprise", entreprise_path, class:"btn btn-navbar navbar-btn", target:"blank"%>
       </ul>
     </div>
   </div>

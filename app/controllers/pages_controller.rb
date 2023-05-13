@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  def about
+  def apropos
   end
 
   def entreprise

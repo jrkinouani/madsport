@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: "pages#home"
-  get "about", to: "pages#about"
+  get "/apropos", to: "pages#apropos"
   get "calendly_privee", to: "pages#calendly_privee"
   get "condition", to: "pages#condition"
   get "/entreprise", to: "pages#entreprise"
