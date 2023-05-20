@@ -67,8 +67,8 @@ h2.accordion-header
 {
 	color: #000000 !important;
 	font-size: 23px;
-  border-bottom: 2px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
+  // border-bottom: 2px solid #FFFFFF;
+  border-top: 20px solid #FFFFFF;
 }
 /*--------
 list-group faq
@@ -77,4 +77,15 @@ list-group faq
 {
   padding-top: 100px;
   font-size: 23px;
+}
+a.link_faq:hover {
+  color: orange !important;
+  font-size: 18px;
+  text-decoration: underline;
+}
+a.link_faq
+{
+  color: orange !important;
+  font-size: 18px;
+  text-decoration: underline;
 }
